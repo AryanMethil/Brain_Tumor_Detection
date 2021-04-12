@@ -32,7 +32,7 @@ The webapp should get opened in a new tab on your search engine.
 Normal Image          |  Tumor Image
 :-------------------------:|:-------------------------:
 ![](images/2.png)  |  ![](images/1.png)
-# versions
+### Versions
 1. streamlit - 0.79.0
 2. tensorboard - 2.4.1
 3. tensorflow-plugin-wit - 1.8.0
