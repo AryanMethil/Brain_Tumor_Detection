@@ -21,10 +21,26 @@ Tensorflow Version on both colab(for training and testing purpose) and pycharm(f
 
 ### Deploy on webapp
 1. Pip install streamlit
-2. Use the deploy_2.py code on your local computer and put the model file in the same directory.
-3. Create an empty folder called Test in the same directory where the deploy_2.py and model files are stored. It will contain 2 subfolders yes and no. The test image uploaded on the webapp will be uploaded in the yes subfolder.(We don't need to care whether it really has a tumor or not. The folder just needs to follow the ImageDataGenerator hierarchy)
-4. Make sure of the tensorflow versions and to be on the safer side, colab and pycharm both should have version 2.2.0
+2. Use the deploy.py code on your local computer and put the model file in the same directory.
+3. Create an empty folder called Test in the same directory where the deploy.py and model files are stored. It will contain 2 subfolders yes and no. The test image uploaded on the webapp will be uploaded in the yes subfolder.(We don't need to care whether it really has a tumor or not. The folder just needs to follow the ImageDataGenerator hierarchy)
+4. Make sure of the python libraries' versions given in the versions section below
 5. Run the code on the command prompt by the following command:
-streamlit run deploy_2.py
+streamlit run deploy.py
 (Make sure to first be in that directory on the command prompt by using the cd command)
 The webapp should get opened in a new tab on your search engine.
+
+# versions
+1. streamlit - 0.79.0
+2. tensorboard - 2.4.1
+3. tensorflow-plugin-wit - 1.8.0
+4. tensorflow
+- Pycharm - 2.4.1
+- Colab - 2.2.0
+5. tensorflow-estimator - 2.4.0
+6. Keras - 2.4.3
+7. Keras-Preprocessing - 1.1.2
+8. Pillow - 8.1.0
+9. numpy - 1.19.5
+10. opencv-python - 4.5.1.48
+11. pip - 20.3.3
+12.
