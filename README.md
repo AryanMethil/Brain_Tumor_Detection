@@ -29,8 +29,8 @@ streamlit run deploy.py
 (Make sure to first be in that directory on the command prompt by using the cd command)
 The webapp should get opened in a new tab on your search engine.
 
-![](images\1.png)
-![](images\2.png)
+![](images/1.png)
+![](images/2.png)
 # versions
 1. streamlit - 0.79.0
 2. tensorboard - 2.4.1
